@@ -1,0 +1,8 @@
+# wave.wlf opened as dataset "wave"
+add wave -position end  wave:/tb/clk
+add wave -position end  wave:/tb/data_check_done
+add wave -position end  wave:/tb/DQ
+add wave -position end  wave:/tb/rst_n
+add wave -position end  wave:/tb/rx_data
+add wave -position end  wave:/tb/rx_data_en
+add wave -position end  wave:/tb/seed

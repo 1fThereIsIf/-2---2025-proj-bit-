@@ -1,0 +1,50 @@
+# vsim -modelsimini modelsim.ini -novopt -wlf wave.wlf -c tb "+seed=165028" -do "run.tcl" -l run.log 
+# Start time: 16:50:30 on Apr 23,2026
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.data_interface_rtl
+# Loading work.adc_bfm
+# Loading work.CHECKER
+# do run.tcl
+# random seed is      165028
+# first random data is   660901198
+# clk delay time is                 5000
+# read file finished at verification file: ../data/bfm_received_data.txt
+# read file finished at testcase file ../data/AD_trans_data.txt
+# receive byte data 4e @           1506055000 !
+# receive byte data 2d @           1994055000 !
+# receive byte data f8 @           2482055000 !
+# receive byte data 52 @           2970055000 !
+# receive byte data 48 @           4418055000 !
+# receive byte data 44 @           5866055000 !
+# receive byte data be @           7314055000 !
+# verification current time:          8756055000,verification file:../data/bfm_received_data.txt,data idx:0, checked
+# receive byte data be @          10263075000 !
+# receive byte data be @          13212095000 !
+# receive byte data be @          16161115000 !
+# receive byte data be @          19110135000 !
+# verification current time:         20552135000,verification file:../data/bfm_received_data.txt,data idx:4, checked
+# receive byte data be @          22059155000 !
+# receive byte data be @          25008175000 !
+# receive byte data be @          27957195000 !
+# receive byte data be @          30906215000 !
+# verification current time:         32348215000,verification file:../data/bfm_received_data.txt,data idx:8, checked
+# receive byte data be @          33855235000 !
+# receive byte data be @          36804255000 !
+# receive byte data be @          39753275000 !
+# receive byte data be @          42702295000 !
+# verification current time:         44144295000,verification file:../data/bfm_received_data.txt,data idx:12, checked
+# receive byte data be @          45651315000 !
+# receive byte data be @          48600335000 !
+# receive byte data be @          51549355000 !
+# receive byte data be @          54498375000 !
+# verification current time:         55940375000,verification file:../data/bfm_received_data.txt,data idx:16, checked
+# receive byte data be @          57447395000 !
+# receive byte data be @          60396415000 !
+# receive byte data be @          63345435000 !
+# All data trans done @         64785455000 !
+# data from verification file: ../data/bfm_received_data.txt has all been checked at time:          64787435000, total data num is          20
+# ** Note: $finish    : ../tb/CHECKER.sv(77)
+#    Time: 64792435 ns  Iteration: 0  Instance: /tb/u_checker0
+# End time: 16:50:59 on Apr 23,2026, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0

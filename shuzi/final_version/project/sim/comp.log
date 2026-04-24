@@ -1,0 +1,12 @@
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:50:28 on Apr 23,2026
+vlog -modelsimini modelsim.ini -sv -timescale 1ns/1ps -f ./files.f -l comp.log 
+-- Compiling module data_interface_rtl
+-- Compiling module tb
+-- Compiling module adc_bfm
+-- Compiling module CHECKER
+
+Top level modules:
+	tb
+End time: 16:50:28 on Apr 23,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
